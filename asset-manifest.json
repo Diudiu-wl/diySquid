@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/diysquid/static/css/main.a5e0e05f.css",
+    "main.js": "/diysquid/static/js/main.01960327.js",
+    "index.html": "/diysquid/index.html",
+    "main.a5e0e05f.css.map": "/diysquid/static/css/main.a5e0e05f.css.map",
+    "main.01960327.js.map": "/diysquid/static/js/main.01960327.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5e0e05f.css",
+    "static/js/main.01960327.js"
+  ]
+}
