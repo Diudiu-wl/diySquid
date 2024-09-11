@@ -309,8 +309,10 @@ function App() {
         </button>
         {showAbout && (
           <div className="about-info">
+          <p>tapioca :</p>
           {aboutImage && <img src={aboutImage} alt="About the Author" className="about-image" />}  {/* 图片显示 */}
-          <p>tapioca</p>  {/* 文字显示 */}
+          {/*<p>tapioca</p>*/}
+          <p>日常破防的鱿鱼。</p>
           </div>
         )}
       </div>
