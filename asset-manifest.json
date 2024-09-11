@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/diysquid/static/css/main.18264029.css",
+    "main.css": "/diysquid/static/css/main.740e3406.css",
     "main.js": "/diysquid/static/js/main.45b81ebd.js",
     "index.html": "/diysquid/index.html",
-    "main.18264029.css.map": "/diysquid/static/css/main.18264029.css.map",
+    "main.740e3406.css.map": "/diysquid/static/css/main.740e3406.css.map",
     "main.45b81ebd.js.map": "/diysquid/static/js/main.45b81ebd.js.map"
   },
   "entrypoints": [
-    "static/css/main.18264029.css",
+    "static/css/main.740e3406.css",
     "static/js/main.45b81ebd.js"
   ]
 }
