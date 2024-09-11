@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/diysquid/static/css/main.18264029.css",
-    "main.js": "/diysquid/static/js/main.cee108dd.js",
+    "main.css": "/diysquid/static/css/main.2e876373.css",
+    "main.js": "/diysquid/static/js/main.01d31e0a.js",
     "index.html": "/diysquid/index.html",
-    "main.18264029.css.map": "/diysquid/static/css/main.18264029.css.map",
-    "main.cee108dd.js.map": "/diysquid/static/js/main.cee108dd.js.map"
+    "main.2e876373.css.map": "/diysquid/static/css/main.2e876373.css.map",
+    "main.01d31e0a.js.map": "/diysquid/static/js/main.01d31e0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.18264029.css",
-    "static/js/main.cee108dd.js"
+    "static/css/main.2e876373.css",
+    "static/js/main.01d31e0a.js"
   ]
 }
