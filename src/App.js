@@ -94,6 +94,7 @@ function App() {
   const [selectedMouth, setSelectedMouth] = useState(null);
   const [selectedClothes, setSelectedClothes] = useState(null);
   const [showAbout, setShowAbout] = useState(false);
+  const [aboutImage, setAboutImage] = useState(null);  // 新增的状态，用于显示作者图片
 
   const canvasRef = useRef(null);
 
@@ -177,6 +178,15 @@ function App() {
       drawToCanvas();
     }
   }, [selectedBody, selectedColor, selectedEyes, selectedMouth, selectedClothes]);
+
+  const handleAboutClick = () => {
+    setShowAbout(!showAbout);
+    if (!showAbout) {
+      setAboutImage(`${process.env.PUBLIC_URL}/images/author.jpeg`);  // 替换为你的图片路径
+    } else {
+      setAboutImage(null);  // 隐藏图片
+    }
+  };
 
   return (
     <div className="container">
@@ -294,12 +304,13 @@ function App() {
       </div>
 
       <div className="about-author-container">
-        <button onClick={() => setShowAbout(!showAbout)} className="about-button">
+      <button onClick={handleAboutClick} className="about-button">
           关于作者
         </button>
         {showAbout && (
           <div className="about-info">
-            <p>制作: tapioca</p>
+          {aboutImage && <img src={aboutImage} alt="About the Author" className="about-image" />}  {/* 图片显示 */}
+          <p>tapioca</p>  {/* 文字显示 */}
           </div>
         )}
       </div>

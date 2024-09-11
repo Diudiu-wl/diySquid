@@ -95,6 +95,12 @@
   padding: 0;
 }
 
+.about-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
 /* 手机端的布局调整 */
 @media (max-width: 768px) {
   .container {
@@ -135,3 +141,4 @@
 .save-button:hover {
   background-color: #63bad6;
 }
+
