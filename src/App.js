@@ -30,6 +30,9 @@ const body1EyeImages = [
   { id: 6, src: `${process.env.PUBLIC_URL}/images/eye6_body1.png` },
   { id: 7, src: `${process.env.PUBLIC_URL}/images/eye7_body1.png` },
   { id: 8, src: `${process.env.PUBLIC_URL}/images/eye8_body1.png` },
+  { id: 9, src: `${process.env.PUBLIC_URL}/images/eye9_body1.png` },
+  { id: 10, src: `${process.env.PUBLIC_URL}/images/eye10_body1.png` },
+  { id: 11, src: `${process.env.PUBLIC_URL}/images/eye11_body1.png` },
 ];
 
 const body1MouthImages = [
@@ -42,7 +45,10 @@ const body1MouthImages = [
   { id: 7, src: `${process.env.PUBLIC_URL}/images/mouth7_body1.png` },
   { id: 8, src: `${process.env.PUBLIC_URL}/images/mouth8_body1.png` },
   { id: 9, src: `${process.env.PUBLIC_URL}/images/mouth9_body1.png` },
-  { id: 10, src: `${process.env.PUBLIC_URL}/images/mouth10_body1.png` },
+  { id: 10, src: `${process.env.PUBLIC_URL}/images/mouth10_body1.png`},
+  { id: 11, src: `${process.env.PUBLIC_URL}/images/mouth11_body1.png` },
+  { id: 12, src: `${process.env.PUBLIC_URL}/images/mouth12_body1.png` },
+  { id: 13, src: `${process.env.PUBLIC_URL}/images/mouth13_body1.png`},
 ];
 
 const body1ClothImages = [
@@ -73,6 +79,10 @@ const body2EyeImages = [
   { id: 4, src: `${process.env.PUBLIC_URL}/images/eye4_body2.png` },
   { id: 5, src: `${process.env.PUBLIC_URL}/images/eye5_body2.png` },
   { id: 6, src: `${process.env.PUBLIC_URL}/images/eye6_body2.png` },
+  { id: 7, src: `${process.env.PUBLIC_URL}/images/eye7_body2.png` },
+  { id: 8, src: `${process.env.PUBLIC_URL}/images/eye8_body2.png` },
+  { id: 9, src: `${process.env.PUBLIC_URL}/images/eye9_body2.png` },
+  //{ id: 10, src: `${process.env.PUBLIC_URL}/images/eye10_body2.png` },
 ];
 
 const body2MouthImages = [
